@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* bulma framework import */
+@import 'bulma/css/bulma.css';
+
+/*useful custom styling */
+html {
+  background-color: lightpink;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: flexbox;
+  padding: 15px;
+}
+
+.background {
+  background-color: lightpink;
+}
+
+/* responsive styling to help with mobile viewing */
+@media only screen and (max-width: 600px) {
+  .profile-picture { 
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .profile-picture {
+    max-width: 70%;
+    height: auto;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .profile-picture {
+    max-width: 40%;
+    height: auto;
+    border-radius: 15px;
+  }
 }
