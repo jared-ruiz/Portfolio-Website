@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return(
-        <nav className='navbar is-justify-content-center background'>
+        <nav className=' is-justify-content-center background is-size-4-tablet font-color'>
             <ul>
                 <li>
                     <a href='/'>About</a>

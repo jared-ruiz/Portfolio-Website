@@ -16,6 +16,14 @@ nav ul li {
   padding: 15px;
 }
 
+nav ul li a {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: lightcoral;
+}
+
 .background {
   background-color: lightpink;
 }
@@ -26,21 +34,24 @@ nav ul li {
     max-width: 80%;
     height: auto;
     border-radius: 15px;
+    border: 10px solid white
   }
 }
 
 @media only screen and (min-width: 600px) {
   .profile-picture {
-    max-width: 70%;
+    max-width: 65%;
     height: auto;
     border-radius: 15px;
+    border: 10px solid white
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .profile-picture {
-    max-width: 40%;
+    max-width: 35%;
     height: auto;
     border-radius: 15px;
+    border: 15px solid white
   }
 }
