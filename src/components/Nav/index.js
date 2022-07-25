@@ -6,7 +6,10 @@ const Nav = () => {
         <nav className=' is-justify-content-center background is-size-4-tablet font-color'>
             <ul>
                 <li>
-                    <a href='/'>About</a>
+                    <Link to='/'>Home</Link>
+                </li>
+                <li>
+                    <Link to='/about'>About</Link>
                 </li>
                 <li>
                     <a href='/'>Portfolio</a>

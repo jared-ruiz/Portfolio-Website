@@ -73,4 +73,10 @@ nav ul li a:hover {
     border-radius: 15px;
     border: 15px solid white
   }
+
+  .secondary-picture {
+    max-width: 70%;
+    border-radius: 30px;
+    border: 15px solid white
+  }
 }
