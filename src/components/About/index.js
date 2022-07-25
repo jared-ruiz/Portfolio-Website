@@ -22,9 +22,13 @@ const About = () => {
                     </p>
                     <p className='pt-4'>
                         I am a San Antonio based full stack web developer who recently made a huge career change from business marketing to tech! As soon as 2020 hit, 
-                        a lot of lives around the world were forced to change and with that change, came a lot of opportunity to reevalute my current
-                        interests and goals. I realized I wanted to jump into this industry as soon as possible and decided to enroll in a rigorous bootcamp hosted through UTSA. It was some of the
-                        hardest work I have ever done in my life. I'm still surprised I made it through.
+                        a lot of lives around the world were forced to change and with that change, came a lot of opportunity to reevaluate my current interests and goals. 
+                        I realized I wanted to jump into this exciting industry as soon as possible and decided to enroll in a rigorous bootcamp hosted through UTSA. 
+                        It was some of the hardest work I have ever done in my life. I was given the opportunity to work some inredibly talented people and push my resourcefulness
+                        to the limit. I am incredibly excited to continue learning and growing as a developer! I look forward to working with you!
+                    </p>
+                    <p className='pt-2'>
+                        -J
                     </p>
                 </div>
             </div>
