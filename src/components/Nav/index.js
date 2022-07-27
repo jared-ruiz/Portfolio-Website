@@ -12,7 +12,7 @@ const Nav = () => {
                     <Link to='/about'>About</Link>
                 </li>
                 <li>
-                    <a href='/'>Portfolio</a>
+                    <Link to='/portfolio'>Portfolio</Link>
                 </li>
                 <li>
                     <Link to='/contact'>Contact</Link>
