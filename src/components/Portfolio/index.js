@@ -38,7 +38,7 @@ const Portfolio = () => {
 
     return(
         <div>
-            <h1 className='has-text-centered mt-5 title'>Recent Projects</h1>
+            <h1 className='has-text-centered mt-5 title has-text-weight-bold'>Recent Projects</h1>
             <Photos projectsList={projectList} />
         </div>
         

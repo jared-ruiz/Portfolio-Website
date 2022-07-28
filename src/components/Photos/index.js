@@ -12,7 +12,7 @@ const Photos = (props) => {
 
                         <div className="card-image">
                             <figure class="image is-5by3">
-                                <img src={project.image} alt="Placeholder image"/>
+                                <img src={project.image} alt="project-images"/>
                             </figure>
                         </div>
 

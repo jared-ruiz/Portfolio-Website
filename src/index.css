@@ -24,6 +24,11 @@ nav ul li a:hover {
   color: lightcoral;
 }
 
+#link-buttons {
+  width: 200px;
+  display: grid;
+}
+
 .background {
   background-color: lightpink;
 }

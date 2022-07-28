@@ -1,12 +1,12 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
 
 const Contact = () => {
 
     const form = useRef();
 
     const sendEmail = (e) => {
-        
         e.preventDefault();
 
         emailjs.sendForm('service_qty38dr', 'template_qtxkh51', form.current, '_vnhzELERSfYrKdZj')
@@ -21,13 +21,14 @@ const Contact = () => {
         <div className='columns'>
 
             <div className='column is-half mt-6'>
-                <h1 className='title'>Let's Get In Touch!</h1>
-                <h1 className='has-text-weight-bold'>GitHub</h1>
-                <h1 className='has-text-weight-bold'>LinkedIn</h1>
+                <h1 className='title has-text-weight-bold has-text-centered'>Links</h1>
+                <a href='https://github.com/jared-ruiz' target='_blank' className="button is-dark is-fullwidth is-outlined mb-4"><span>GitHub</span><span className='icon'><FaGithub/></span></a>
+                <a  href='https://www.linkedin.com/in/jaredruiz/' target='_blank' className="button is-dark is-fullwidth is-outlined"><span>LinkedIn</span><span className='icon'><FaLinkedin/></span></a>
             </div>
 
-            <div className='column'>
-                <form  ref={form} onSubmit={sendEmail} className="box mt-6">
+            <div className='column mt-6'>
+            <h1 className='title has-text-weight-bold has-text-centered'>Let's Get In Touch!</h1>
+                <form  ref={form} onSubmit={sendEmail} className="box">
 
                     <div className="field">
                         <label className="label">Name</label>
