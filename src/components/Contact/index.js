@@ -9,7 +9,7 @@ const Contact = () => {
         
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_qtxkh51', form.current, '_vnhzELERSfYrKdZj')
+        emailjs.sendForm('service_qty38dr', 'template_qtxkh51', form.current, '_vnhzELERSfYrKdZj')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -20,38 +20,37 @@ const Contact = () => {
     return (
         <div className='columns'>
 
-            <div className='column is-half'>
-                <h1 className='title'>Links</h1>
+            <div className='column is-half mt-6'>
+                <h1 className='title'>Let's Get In Touch!</h1>
                 <h1 className='has-text-weight-bold'>GitHub</h1>
                 <h1 className='has-text-weight-bold'>LinkedIn</h1>
             </div>
 
             <div className='column'>
-                <h1></h1>
-                <form  ref={form} onSubmit={sendEmail} class="box mt-6">
+                <form  ref={form} onSubmit={sendEmail} className="box mt-6">
 
-                    <div class="field">
-                        <label class="label">Name</label>
-                        <div class="control">
-                            <input class="input" type="name"/>
+                    <div className="field">
+                        <label className="label">Name</label>
+                        <div className="control">
+                            <input className="input" type="name" name='name'/>
                         </div>
                     </div>
                     
-                    <div class="field">
-                        <label class="label">Email</label>
-                        <div class="control">
-                            <input class="input" type="email"/>
+                    <div className="field">
+                        <label className="label">Email</label>
+                        <div className="control">
+                            <input className="input" type="email" name='email'/>
                         </div>
                     </div>
 
-                    <div class="field">
-                        <label class="label">Message</label>
-                        <div class="control">
-                            <textarea class="textarea"/>
+                    <div className="field">
+                        <label className="label">Message</label>
+                        <div className="control">
+                            <textarea className="textarea" name='message'/>
                         </div>
                     </div>
 
-                    <button class="button is-dark" type='submit'>Send</button>
+                    <button className="button is-dark" type='submit' value="Send">Send</button>
                 </form>
             </div>
         </div>
