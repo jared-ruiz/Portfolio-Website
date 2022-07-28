@@ -37,7 +37,11 @@ const Portfolio = () => {
     ])
 
     return(
-        <Photos projectsList={projectList} />
+        <div>
+            <h1 className='has-text-centered mt-5 title'>Recent Projects</h1>
+            <Photos projectsList={projectList} />
+        </div>
+        
     )
 }
 

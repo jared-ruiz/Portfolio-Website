@@ -7,7 +7,7 @@ const Photos = (props) => {
     return(
         <div className="columns">
             {projects.map((project) => (
-                <div className="column mt-6">
+                <div className="column mt-2">
                     <div className="card p-3">
 
                         <div className="card-image">
