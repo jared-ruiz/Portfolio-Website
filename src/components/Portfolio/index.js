@@ -33,12 +33,12 @@ const Portfolio = () => {
             description: "An all in one link sharing application to document and show off the most important links in your life.",
             github: 'https://github.com/JonCurls/current',
             deployLink: 'https://desolate-crag-78193.herokuapp.com/'
-        }
+        },
     ])
 
     return(
         <div>
-            <h1 className='has-text-centered mt-5 title has-text-weight-bold'>Recent Projects</h1>
+            <h1 className='has-text-centered mt-5 ml-4 title has-text-weight-bold'>Recent Projects</h1>
             <Photos projectsList={projectList} />
         </div>
         

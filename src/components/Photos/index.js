@@ -5,14 +5,15 @@ const Photos = (props) => {
     const projects = props.projectsList;
 
     return(
-        <div className="columns">
+        <div className="columns has-background-light mt-4">
+            
             {projects.map((project) => (
                 <div className="column mt-2">
                     <div className="card p-3">
 
                         <div className="card-image">
                             <figure class="image is-5by3">
-                                <img src={project.image} alt="project-images"/>
+                                <img src={project.image} alt="project-images" className="project-images"/>
                             </figure>
                         </div>
 

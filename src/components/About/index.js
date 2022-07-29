@@ -27,7 +27,7 @@ const About = () => {
                         It was some of the hardest work I have ever done in my life. I was given the opportunity to work with some incredibly talented people and push my resourcefulness
                         to the limit. I am incredibly excited to continue learning and growing as a developer! I look forward to working with you!
                     </p>
-                    <p className='pt-2'>
+                    <p className='pt-2 ml-2'>
                         -J
                     </p>
                 </div>
