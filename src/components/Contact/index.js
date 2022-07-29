@@ -22,8 +22,8 @@ const Contact = () => {
 
             <div className='column is-half mt-6'>
                 <h1 className='title has-text-weight-bold has-text-centered'>Links</h1>
-                <a href='https://github.com/jared-ruiz' target='_blank' className="button is-dark is-outlined mb-4 link-buttons"><span>GitHub</span><span className='icon'><FaGithub/></span></a>
-                <a href='https://www.linkedin.com/in/jaredruiz/' target='_blank' className="button is-dark is-outlined link-buttons"><span>LinkedIn</span><span className='icon'><FaLinkedin/></span></a>
+                <a href='https://github.com/jared-ruiz' target='_blank' className="button mb-4 link-buttons has-text-weight-bold"><span>GitHub</span><span className='icon'><FaGithub/></span></a>
+                <a href='https://www.linkedin.com/in/jaredruiz/' target='_blank' className="button link-buttons has-text-weight-bold"><span>LinkedIn</span><span className='icon'><FaLinkedin/></span></a>
             </div>
 
             <div className='column mt-6'>

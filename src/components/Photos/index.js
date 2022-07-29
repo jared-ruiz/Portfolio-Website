@@ -20,8 +20,8 @@ const Photos = (props) => {
                         <div className="m-3">
                             <div>
                                 <p className="title is-4">{project.title}</p>
-                                <a className="button is-fullwidth is-dark is-outlined my-2" href={project.github} target='_blank'>GitHub</a>
-                                <a className="button is-fullwidth is-dark is-outlined" href={project.deployLink} target='_blank'>Deployed</a>
+                                <a className="button is-fullwidth project-links my-2 has-text-weight-bold" href={project.github} target='_blank'>GitHub</a>
+                                <a className="button is-fullwidth project-links has-text-weight-bold" href={project.deployLink} target='_blank'>Deployed</a>
                             </div>
                         </div>
                         

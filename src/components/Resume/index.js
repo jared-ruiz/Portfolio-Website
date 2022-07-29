@@ -1,10 +1,10 @@
-import { fontSize } from "@mui/system";
 import React from "react";
+import resume from '../../assets/resume/Resume.pdf'
 
 const Resume = () => {
     return(
         <div className='section p-3 m-1'>
-            <a className="button has-text-weight-bold" id="cv-button">Download CV</a>
+            <a href={resume} target='_blank' className="button has-text-weight-bold" id="cv-button">Download CV</a>
             <div className='columns mt-1'>
 
                 <div className='column'>
