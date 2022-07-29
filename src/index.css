@@ -29,6 +29,11 @@ nav ul li a:hover {
   color: lightcoral;
 }
 
+/**Change About Text to Solid Black**/
+.about-text {
+  color: black;
+}
+
 #link-buttons {
   width: 200px;
   display: grid;

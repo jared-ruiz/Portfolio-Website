@@ -3,7 +3,7 @@ import profilePicture from '../../assets/images/profile-pic.jpg'
 
 const Home = () => {
     return(
-        <div className='section p-5'>
+        <div className='section p-5 mt-3'>
             <div className='has-text-centered is-fullwidth'>
                 <img src={profilePicture} className='profile-picture' alt='profile'/>
             </div>

@@ -1,3 +1,4 @@
+import { color } from '@mui/system';
 import React from 'react';
 import secondaryPicture from '../../assets/images/secondary-pic.jpg'
 
@@ -8,13 +9,15 @@ const About = () => {
                 <div className='has-text-centered is-fullwidth column '>
                     <img src={secondaryPicture} className='secondary-picture' alt='secondary-profile'/>
                 </div>
-                <div className='column'>
+                <div className='column about-text'>
                     <h1 className='has-text-left title has-text-weight-bold'>Info</h1>
                     <h2 className='has-text-left has-text-weight-bold'>Name: <span style={{fontWeight: 'normal'}}>Jared Ruiz</span></h2>
                     <h2 className='has-text-left has-text-weight-bold'>Age: <span style={{fontWeight: 'normal'}}>26</span></h2>
                     <h2 className='has-text-left has-text-weight-bold'>Education: <span style={{fontWeight: 'normal'}}>University of Texas at San Antonio</span></h2>
                     <h2 className='has-text-left has-text-weight-bold'>Degree: <span style={{fontWeight: 'normal'}}>BBA Marketing</span></h2>
-                    <h2 className='has-text-left has-text-weight-bold'>Technologies: <span style={{fontWeight: 'normal'}}>JavaScript, Python, CSS, HTML5, SQL, NoSQL, GitHub, MongoDB, Mongoose ODM, MySQL, Express, React, Node, Handlebars, Bootstrap, Bulma, Apollo GraphQL, PWA’s</span></h2>
+                    <h2 className='has-text-left has-text-weight-bold'>Technologies: <span style={{fontWeight: 'normal'}}>JavaScript, CSS, HTML5, SQL, NoSQL, GitHub, MongoDB, Mongoose ODM, MySQL, Express, React, Node,
+                        REST API's, Handlebars, MVC, TDD, ORM, Bootstrap, Bulma, Apollo GraphQL, PWA’s</span>
+                    </h2>
 
                     <h1 className='has-text-left title has-text-weight-bold mt-6'>Who Am I?</h1>
                     <p>
