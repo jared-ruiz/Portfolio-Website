@@ -7,6 +7,26 @@ const Resume = () => {
             <a href={resume} target='_blank' className="button has-text-weight-bold" id="cv-button">Download CV</a>
             <div className='columns mt-1'>
 
+            <div className="column">
+                    {/* start of summary*/}       
+                    <h2 className='has-text-left title has-text-weight-bold mt-5'>Summary</h2>
+                    <p>
+                        Full Stack Web Developer with a background in Business Marketing. Proficient in problem solving and working
+                        within a fast paced work environment. Thrives in team oriented projects with the aim for quality and efficiency
+                    </p>
+
+                    {/* start of technical skills */}
+                    <h2 className='has-text-left title has-text-weight-bold mt-5'>Technical Skills</h2>
+                    <p>
+                        JavaScript, CSS, HTML5, SQL, NoSQL, GitHub, MongoDB, Mongoose ODM, MySQL, Express, React, Node,
+                        REST API's, Handlebars, MVC, TDD, ORM, Bootstrap, Bulma, Apollo GraphQL, PWA’s
+                    </p>
+
+                    <h2 className="has-text-left title has-text-weight-bold mt-5">Education</h2>
+                    <h3 className="has-text-left subtitle has-text-weight-bold mt-5 mb-3">University of Texas at San Antonio: <span style={{fontWeight: 'normal', fontSize: '18px'}}>BBA Marketing</span></h3>
+                    <h3 className="has-text-left subtitle has-text-weight-bold mt-3 mb-3">University of Texas at San Antonio: <span style={{fontWeight: 'normal', fontSize: '18px'}}>Full Stack Web Development Certification</span></h3>
+                </div>
+
                 <div className='column'>
                     {/* start of projects */}
                     <h2 className='has-text-left title has-text-weight-bold mt-5'>Projects</h2>
@@ -34,26 +54,6 @@ const Resume = () => {
                         <li>● Utilized local storage to store zip code inputs</li>
                         <li>● <span className="has-text-weight-bold">JavaScript, Node, 3rd Party API’s, Front End Local Storage</span></li> 
                     </ul>
-                </div>
-
-                <div className="column">
-                    {/* start of summary*/}       
-                    <h2 className='has-text-left title has-text-weight-bold mt-5'>Summary</h2>
-                    <p>
-                        Full Stack Web Developer with a background in Business Marketing. Proficient in problem solving and working
-                        within a fast paced work environment. Thrives in team oriented projects with the aim for quality and efficiency
-                    </p>
-
-                    {/* start of technical skills */}
-                    <h2 className='has-text-left title has-text-weight-bold mt-5'>Technical Skills</h2>
-                    <p>
-                        JavaScript, CSS, HTML5, SQL, NoSQL, GitHub, MongoDB, Mongoose ODM, MySQL, Express, React, Node,
-                        REST API's, Handlebars, MVC, TDD, ORM, Bootstrap, Bulma, Apollo GraphQL, PWA’s
-                    </p>
-
-                <h2 className="has-text-left title has-text-weight-bold mt-5">Education</h2>
-                    <h3 className="has-text-left subtitle has-text-weight-bold mt-5 mb-3">University of Texas at San Antonio: <span style={{fontWeight: 'normal', fontSize: '18px'}}>BBA Marketing</span></h3>
-                    <h3 className="has-text-left subtitle has-text-weight-bold mt-3 mb-3">University of Texas at San Antonio: <span style={{fontWeight: 'normal', fontSize: '18px'}}>Full Stack Web Development Certification</span></h3>
                 </div>
             </div>
         </div>

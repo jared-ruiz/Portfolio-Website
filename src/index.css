@@ -199,6 +199,10 @@ nav ul li a:hover {
     font-size: 25px;
     font-weight: bold;
   }
+
+  .box {
+    margin-right: 25px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
