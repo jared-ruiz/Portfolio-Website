@@ -22,16 +22,20 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: #363636;
 }
 
 nav ul li a:hover {
   color: lightcoral;
 }
 
+/* .font-color {
+  color: #363636;
+} */
+
 /**Change About Text to Solid Black**/
 .about-text {
-  color: black;
+  color: #363636;
 }
 
 #link-buttons {
