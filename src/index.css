@@ -62,7 +62,7 @@ nav ul li a:hover {
   width: 100%;
   margin-top: 5%;
   background-color: lightpink;
-  border: 1px solid black;
+  border: 1px solid #363636;
   border-radius: 3px;
 }
 
@@ -71,23 +71,23 @@ nav ul li a:hover {
 }
 
 #cv-button:focus {
-  border: 1px solid black;
+  border: 1px solid #363636;
 }
 
 /**Portfolio Project Links (mapped out links)**/
 .project-links {
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid #363636;
   border-radius: 3px;
 }
 
 .project-links:hover {
   background-color: lightcoral;
-  border: 1px solid black;
+  border: 1px solid #363636;
 }
 
 .project-links:focus {
-  border: 1px solid black;
+  border: 1px solid #363636;
 }
 
 /**Portfolio Project Image Styling**/
@@ -102,17 +102,17 @@ nav ul li a:hover {
   align-content: center;
   width: 50%;
   margin-left: 25%;
-  border: 1px solid black;
+  border: 1px solid #363636;
   background-color: lightpink;
 }
 
 .link-buttons:hover {
   background-color: lightcoral;
-  border: 1px solid black;
+  border: 1px solid #363636;
 }
 
 .link-buttons:focus {
-  border: 1px solid black;
+  border: 1px solid #363636;
 }
 
 /* responsive styling to help with mobile viewing */
